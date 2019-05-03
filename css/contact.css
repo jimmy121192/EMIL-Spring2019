@@ -1,0 +1,166 @@
+body{
+
+}
+
+
+.intro {
+	display:table;
+	width:100%;
+	height:auto;
+	padding:100px 0 100px 0;
+	text-align:center;
+	color:#fff;
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../assets/images/shopping.jpg');
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+}
+.intro .intro-body {
+	display:table-cell;
+	vertical-align:middle;
+}
+.intro .intro-body .brand-heading {
+	font-size:40px;
+}
+.intro .intro-body .intro-text {
+	font-size:18px;
+}
+
+#mc-embedded-subscribe-form{
+    
+    background-color: #444341;
+}
+
+#mc-embedded-subscribe-form input,#mc-embedded-subscribe-form textarea {
+	border:0px;
+	border-bottom:2px solid #333;
+	width:80%;
+	background-color:transparent;
+	padding:20px 0px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+
+    
+}
+#mc-embedded-subscribe-form input#submit {
+	width:auto;
+	border:2px solid #333;
+	padding:10px 20px;
+  display:inline-block;
+  background-color:#333;
+  transition: 0.5s;
+}
+#mc-embedded-subscribe-form input#submit:hover {
+	background-color:wheat;
+	color:#fff;
+	border:2px solid wheat;
+}
+#mc-embedded-subscribe-form input:focus,#mc-embedded-subscribe-form input:active,#mc-embedded-subscribe-form textarea:focus,#mc-embedded-subscribe-formtextarea:active {
+	border-top:0px;
+	border-bottom:2px solid lightseagreen;
+	outline:0;
+	outline: none;
+}
+#mce-EMAIL{
+    color: #fff
+}
+#contact h3{
+
+    font-family: futura
+}
+#contact p{
+    text-align: justify;
+    color: wheat;
+    font-size: 16px;
+    }
+    #contact{
+        background-color: #444341;
+        
+    }
+    #contact .btnghost{
+        color: wheat;
+        border-color: wheat
+    
+    }
+	
+    
+   #googleMap {
+
+        width: 100%;
+        height: 500px;
+
+    }
+
+    .store-info {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    
+    .store-info .hours-of-operation {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-bottom: 2em;
+        margin-right: 1em;
+    }
+    .store-info .contact {
+        margin-left: 1em;
+    }
+    
+    .store-info .hours-of-operation .days {
+        text-align: left;
+        margin-right: 30px;
+      
+    }
+    .store-info .hours-of-operation .days p {
+        color: white !important
+    }
+    
+    .store-info .hours-of-operation .hours {
+        text-align: right
+    }
+
+    .email-signup {
+        border-bottom: 1px solid #9a7823;
+        margin: 0 auto 30px;
+        width: 50%
+    }
+    
+    .email-signup input[type=email] {
+        background: none;
+        padding: 5px;
+        border: 0;
+        font-size: 10pt;
+        height: 42px;
+        width: 70%;
+        color: #9a7823
+    }
+    
+    .email-signup input[type=email]::placeholder {
+        color: #9b782499
+    }
+    
+    .email-signup input[type=submit] {
+        background: none;
+        border-radius: 0;
+        border: 0;
+        opacity: .8;
+        padding: 0;
+        width: 26%;
+        height: 100%
+    }
+    
+    .email-signup input[type=submit]:hover {
+        opacity: .5
+    }
+
+    .logo{
+    
+        width: 250px;
+        margin-bottom: 4em
+    }

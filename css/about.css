@@ -1,0 +1,95 @@
+.collection {
+  float: left;
+  clear: both;
+  position: relative;
+  width: 580px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.collection:hover .card {
+  z-index: 1;
+  opacity: 1;
+  width: 120px;
+  height: 169px;
+}
+.collection:hover .card:hover {
+  z-index: 10;
+  -webkit-transform: rotate(0deg);
+  width: 213px;
+  height: 300px;
+  top: -38px;
+  opacity: 1;
+}
+.collection .card {
+  position: relative;
+  float: left;
+  width: 142px;
+  height: 200px;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s ease-out;
+}
+.collection .card:nth-child(1) {
+  -webkit-transform: rotate(-6deg);
+  top: 40px;
+  left: 9px;
+  z-index: 5;
+}
+.collection .card:nth-child(2) {
+  -webkit-transform: rotate(-2deg);
+  left: -9px;
+  z-index: 3;
+}
+.collection .card:nth-child(3) {
+  -webkit-transform: rotate(-5deg);
+  top: 26px;
+  left: -36px;
+  z-index: 1;
+}
+.collection .card:nth-child(4) {
+  -webkit-transform: rotate(7deg);
+  top: 15px;
+  left: -46px;
+  z-index: 3;
+}
+
+.intro {
+	display:table;
+	width:100%;
+	height:auto;
+	padding:100px 0 100px 0;
+	text-align:center;
+	color:#fff;
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)),url('../assets/images/about.jpg');
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+}
+.intro .intro-body {
+	display:table-cell;
+	vertical-align:middle;
+}
+.intro .intro-body .brand-heading {
+	font-size:40px;
+}
+.intro .intro-body .intro-text {
+	font-size:18px;
+}
+
+#about p{
+text-align: justify;
+color: wheat;
+font-size: 16px;
+}
+#about{
+	background-color: #444341;
+	
+}
+#about .btnghost{
+	color: wheat;
+	border-color: wheat
+
+}
+
+
